@@ -1,0 +1,8 @@
+<view class="wrapper">
+  <view class="one item">One</view>
+  <view class="two item">Two</view>
+  <view class="three item">Three</view>
+  <view class="four item">Four</view>
+  <view class="five item">Five</view>
+  <view class="six item">Six</view>
+</view>

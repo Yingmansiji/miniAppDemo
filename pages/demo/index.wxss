@@ -1,0 +1,34 @@
+.wrapper {
+  margin: 60rpx;
+  /* 声明一个容器 */
+  display: grid;
+  /*  声明列的宽度  */
+  grid-template-columns: repeat(3, 200rpx);
+  /*  声明行间距和列间距  */
+  grid-gap: 20rpx;
+  /*  声明行的高度  */
+  grid-template-rows: 100rpx 200rpx;
+}
+.one {
+  background: #19CAAD;
+}
+.two { 
+  background: #8CC7B5;
+}
+.three {
+  background: #D1BA74;
+}
+.four {
+  background: #BEE7E9;
+}
+.five {
+  background: #E6CEAC;
+}
+.six {
+  background: #ECAD9E;
+}
+.item {
+  text-align: center;
+  font-size: 200%;
+  color: #fff;
+}

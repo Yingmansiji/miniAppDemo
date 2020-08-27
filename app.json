@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/demo/index",
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "江南秘书子"
+  },
+  "tabBar": {
+    "backgroundColor": "#ffffff",
+    "position":"top",
+    "list": [
+      {
+        "pagePath": "pages/demo/index",
+        "text": "书库"
+      },
+	  {
+	    "pagePath": "pages/index/index",
+	    "text": "名帖"
+	  }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "navigateToMiniProgramAppIdList": [
+    "wxe5f52902cf4de896"
+  ],
+    "sitemapLocation": "sitemap.json"
+}
